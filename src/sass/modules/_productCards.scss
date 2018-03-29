@@ -1,0 +1,96 @@
+.product {
+    padding: 50px 0px;
+    &__header {
+        margin-bottom: 50px;
+        h4 {
+            font-size: 22px;
+        }
+        p {
+            font-size: 16px;
+        }
+    }
+    &-card {
+        width: 280px;
+        margin-right: 5px;
+        margin-left: 5px;
+        padding: 0px;
+        background-color: $color-primary;
+        transition: background 250ms linear;
+        &:hover {
+            background-color: 0e0e0e;
+        }
+        &__wrapper {
+            padding: 30px 30px;
+        }
+        &__title {
+            margin-bottom: 20px;
+            font-size: 22px;
+            strong {
+                font-weight: 400;
+            }
+        }
+        &__desc {
+            line-height: 24px;
+            color: $light-gray;
+            font-size: 13px;
+            margin-bottom: 30px;
+        }
+        &__uses {
+            margin-bottom: 20px;
+            color: $light-gray;
+            font-size: 13px;
+            strong {
+                display: block;
+            }
+        }
+        &__features {
+            margin-bottom: 20px;
+            li {
+                color: $light-gray;
+                font-weight: 700;
+            }
+        }
+        &__action {
+            a {
+                color: $white;
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+.product--red {
+    border-top: 2px solid red;
+    .product-card__uses--color {
+        strong {
+            color: red;
+        }
+    }
+}
+
+.product--yellow {
+    border-top: 2px solid yellow;
+    .product-card__uses--color {
+        strong {
+            color: yellow;
+        }
+    }
+}
+
+.product--orange {
+    border-top: 2px solid orange;
+    .product-card__uses--color {
+        strong {
+            color: orange;
+        }
+    }
+}
+
+.product--blue {
+    border-top: 2px solid blue;
+    .product-card__uses--color {
+        strong {
+            color: blue;
+        }
+    }
+}

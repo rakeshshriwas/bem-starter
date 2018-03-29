@@ -1,0 +1,29 @@
+{
+  "name": "bem",
+  "version": "1.0.0",
+  "description": "How to make BEM code reuseable",
+  "main": "index.js",
+  "dependencies": {
+    "gulp-connect": "^5.5.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.2.1",
+    "gulp-watch": "^5.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-inject": "^4.3.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rakeshshriwas/bem-starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rakeshshriwas/bem-starter/issues"
+  },
+  "homepage": "https://github.com/rakeshshriwas/bem-starter#readme"
+}

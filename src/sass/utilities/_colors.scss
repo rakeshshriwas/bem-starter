@@ -1,0 +1,17 @@
+/* colors global variable */
+
+$white: #ffffff !default;
+$dark-gray: #282B2D !default;
+$light-gray: #e5ebef !default;
+$deep-dark-gray: #262626 !default;
+$light-gray: #cccccc;
+//body background-color
+$body-color-background: $dark-gray;
+// Main color palette
+$color-default: $white;
+$color-primary: $deep-dark-gray;
+$color-secondary: $deep-dark-gray;
+// Links
+$color-link: $color-primary;
+// Default Text color
+$text-color-default: $white !default;
